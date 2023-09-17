@@ -28,8 +28,6 @@ function sumRecursion(nums) {
 const sumTheSimpleWay = (nums) => _.reduce(nums, function (memo, num) { return memo + num; }, 0);
 console.log(sumFor(testNums));
 console.log(sumWhile(testNums));
-
-
 console.log(sumRecursion(testNums));
 console.log(sumTheSimpleWay(testNums));
 
